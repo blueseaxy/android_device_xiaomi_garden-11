@@ -31,7 +31,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 # Inherit from garden device makefile
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Device identifier. This must come after all inclusions.
+# Device identifier. This must come after all include ons.
 PRODUCT_NAME := lineage_garden
 PRODUCT_DEVICE := garden
 PRODUCT_BRAND := Redmi
